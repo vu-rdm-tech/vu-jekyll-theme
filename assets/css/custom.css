@@ -55,6 +55,10 @@ table th {
     color: #fff;
 }
 
+#brandbar {
+    height: 95px;
+}
+
 #brandbar img {
     height: 75px;
     width: 253px;
