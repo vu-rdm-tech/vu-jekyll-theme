@@ -11,7 +11,7 @@ h2 {
 }
 
 #colophon {
-    background-color: #fff;
+    background-color: #007ab9;
     color: #999;
     padding: 32px 0;
 }
@@ -22,5 +22,10 @@ h2 {
 
 .page-content, .page-content-inner, .mce-content-body {
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+#content .page-header-placeholder {
+    background-color: #007ab9;
+    color: #fff;
 }
 
