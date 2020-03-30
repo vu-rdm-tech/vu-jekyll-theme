@@ -43,3 +43,12 @@ table th {
     color: #007ecc;
 }
 
+.navbar-inverse .navbar-nav > li > a:hover {
+    background: #fff;
+    color: #007ecc;
+}
+
+#content .page-title h1 {
+    background: none repeat scroll 0 0 #007ab9;
+    color: #fff;
+}
