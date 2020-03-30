@@ -7,7 +7,7 @@
 }
 
 h2 {
-    color: #339966;
+    color: #0077b3;
 }
 
 #colophon {
@@ -27,5 +27,19 @@ h2 {
 #content .page-header-placeholder {
     background-color: #007ab9;
     color: #fff;
+}
+
+table th {
+    background-color: #007ab9;
+}
+
+#left-sidebar .widget ul li a {
+    line-height: 2em;
+    font-weight: 400;
+    font-family: 'Roboto Condensed',sans-serif;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #007ecc;
 }
 
