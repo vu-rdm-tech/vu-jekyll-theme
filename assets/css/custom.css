@@ -9,3 +9,18 @@
 h2 {
     color: #339966;
 }
+
+#colophon {
+    background-color: #fff;
+    color: #999;
+    padding: 32px 0;
+}
+
+.navbar-inverse {
+    background-color: #fff;
+}
+
+.page-content, .page-content-inner, .mce-content-body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
