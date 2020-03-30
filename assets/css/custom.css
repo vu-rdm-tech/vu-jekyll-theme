@@ -12,7 +12,7 @@ h2 {
 
 #colophon {
     background-color: #007ab9;
-    color: #999;
+    color: #fff;
     padding: 32px 0;
 }
 
@@ -31,9 +31,11 @@ h2 {
 
 table th {
     background-color: #007ab9;
+    color: #fff;
 }
 
 #left-sidebar .widget ul li a {
+    color: #0089cf !important;
     line-height: 2em;
     font-weight: 400;
     font-family: 'Roboto Condensed',sans-serif;
@@ -51,4 +53,19 @@ table th {
 #content .page-title h1 {
     background: none repeat scroll 0 0 #007ab9;
     color: #fff;
+}
+
+#brandbar img {
+    height: 75px;
+    width: 253px;
+}
+
+#masthead h1 a, #masthead h1 a:hover, #masthead h1 a:focus {
+    color: #0089cf;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.breadcrumbs {
+    display: none; /* don't seem to do anything at the moment */
 }
