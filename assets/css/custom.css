@@ -82,3 +82,7 @@ table th {
     display: none;
 }
 
+a, a:visited {
+    color: #007ecc;
+    text-decoration: none;
+}
