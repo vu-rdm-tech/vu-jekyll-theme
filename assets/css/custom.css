@@ -81,8 +81,7 @@ table th {
 .breadcrumbs {
     display: none;
 }
-
-a, a:visited {
+.page-content a, .page-content a:visited, article a, article a:visited {
     color: #007ecc;
     text-decoration: none;
 }
