@@ -85,3 +85,7 @@ table th {
     color: #007ecc;
     text-decoration: none;
 }
+
+#content .header-image {
+    max-height: 250px;
+}
