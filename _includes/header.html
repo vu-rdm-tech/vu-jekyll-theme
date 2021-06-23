@@ -67,18 +67,16 @@
                         </li>
                     </ul>
                     {% endfor %}
-                    <ul role="menu" class=" dropdown-menu">
-                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children dropdown">
-                            <a title="Yoda portal categories" href="https://portal.yoda.vu.nl/">
-                                Yoda Portal
-                            </a>
-                        </li>
-                    </ul>
                     {% else %}
                     <a title="{{ item.title }}" href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
                     {% endif %}
                 </li>
                 {% endfor %}
+                <li class="first-item menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children dropdown">
+                    <a title="Yoda portal categories" href="https://portal.yoda.vu.nl/">
+                        Yoda Portal
+                    </a>
+                </li>
             </ul>
         </div>
     </div>
