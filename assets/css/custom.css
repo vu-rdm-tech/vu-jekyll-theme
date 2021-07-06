@@ -94,3 +94,6 @@ table th {
     max-height: 250px;
 }
 
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
