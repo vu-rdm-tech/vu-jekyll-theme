@@ -34,6 +34,10 @@ table th {
     color: #fff;
 }
 
+#left-sidebar {
+    padding-left: 20px;
+}
+
 #left-sidebar .widget ul li a {
     color: #0089cf !important;
     line-height: 2em;
@@ -89,3 +93,4 @@ table th {
 #content .header-image {
     max-height: 250px;
 }
+
