@@ -50,14 +50,14 @@
                                         <a href="{{ path }}">{{ item.page }}</a>
                                     </li>
                                     {% if item.sub != null %}
-                                        {% assign path = site.baseurl | append: sub.url %}
                                         <li>
                                             <ul>
                                                 <!-- 2nd level -->
                                                 {% for sub in item.sub %}
-                                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children{% if currentPagePath == path %} current-menu-item{% endif %}">
-                                                    <a href="{{ path }}">{{ sub.page }}</a>
-                                                </li>
+                                                    {% assign path = site.baseurl | append: sub.url %}
+                                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children{% if currentPagePath == path %} current-menu-item{% endif %}">
+                                                        <a href="{{ path }}">{{ sub.page }}</a>
+                                                    </li>
                                                 {% endfor %}
                                             </ul>
                                         </li>
