@@ -51,11 +51,11 @@
                                     </li>
                                     {% if item.sub != null %}
                                         <li>
-                                            <ul>
+                                            <ul class="sub-menu">
                                                 <!-- 2nd level -->
                                                 {% for sub in item.sub %}
                                                     {% assign path = site.baseurl | append: sub.url %}
-                                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children{% if currentPagePath == path %} current-menu-item{% endif %}">
+                                                    <li>
                                                         <a href="{{ path }}">{{ sub.page }}</a>
                                                     </li>
                                                 {% endfor %}
