@@ -64,8 +64,8 @@ table th {
 }
 
 #brandbar img {
-    height: 75px;
-    width: 253px;
+    height: 7rem;
+    max-width: 40%;
     vertical-align: middle;
     display: inline-block;
 }
