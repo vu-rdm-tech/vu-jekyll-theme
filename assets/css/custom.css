@@ -70,8 +70,12 @@ table th {
     border: none;
 }
 
+#vu-logo {
+    float: right;
+}
+
 #yoda-logo {
-    width: 40%;
+    float: left;
 }
 
 #header {
