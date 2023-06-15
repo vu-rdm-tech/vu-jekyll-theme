@@ -60,11 +60,11 @@ table th {
 }
 
 #brandbar {
-    height: 8rem;
+    height: 10rem;
 }
 
 #brandbar img {
-    height: 7rem;
+    height: 9rem;
     vertical-align: middle;
     display: inline-block;
 }

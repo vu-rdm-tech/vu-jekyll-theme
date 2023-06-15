@@ -5714,10 +5714,12 @@ h1 a, .h1 a, h2 a, .h2 a, h3 a, .h3 a, h4 a, .h4 a, h5 a, .h5 a {
     }
 }
 
+/*
 #brandbar img {
     height: 48px;
     width: 179px
 }
+*/
 
 @media (max-width: 768px) {
     #brandbar img {
