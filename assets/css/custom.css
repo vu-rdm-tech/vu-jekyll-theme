@@ -60,14 +60,17 @@ table th {
 }
 
 #brandbar {
-    height: 95px;
+    height: 8rem;
 }
 
 #brandbar img {
     height: 7rem;
-    max-width: 40%;
     vertical-align: middle;
     display: inline-block;
+}
+
+#yoda-logo {
+    width: 40%;
 }
 
 #header {
